@@ -34,9 +34,9 @@ public class SpawnCubes : MonoBehaviour
         }
         else if (currentCount > cubesCount)
         {
-                Destroy(cubes[currentCount - 1]);
-                cubes.RemoveAt(currentCount - 1);
-                currentCount--;
+            Destroy(cubes[currentCount - 1]);
+            cubes.RemoveAt(currentCount - 1);
+            currentCount--;
         }
     }
 
