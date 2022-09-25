@@ -5,23 +5,19 @@ using UnityEngine;
 public class SpawnCubes : MonoBehaviour
 {
     public int cubesCount = 0;
-
     public GameObject minPosEmpty;
     public GameObject maxPosEmpty;
-
     public GameObject prefubCube;
 
-    private int currentCount = 0;
 
+    private int currentCount = 0;
     private List<GameObject> cubes = new List<GameObject>();
 
-    // Start is called before the first frame update
     void Start()
     {
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (cubesCount < 0)
@@ -35,7 +31,6 @@ public class SpawnCubes : MonoBehaviour
                 Random.Range(getMinPos().z, getMaxPos().z));
             cubes.Add(Instantiate(prefubCube, newPos, new Quaternion(0, 0, 0, 0)));
             currentCount++;
-            Debug.Log(cubes.Count);
         }
         else if (currentCount > cubesCount)
         {
@@ -45,7 +40,6 @@ public class SpawnCubes : MonoBehaviour
                 cubes.RemoveAt(currentCount - 1);
                 currentCount--;
             }
-            Debug.Log(cubes.Count + " " + currentCount);
         }
     }
 
