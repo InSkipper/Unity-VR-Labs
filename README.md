@@ -53,13 +53,14 @@ Manager;
 - Запустите проект и убедитесь, что он воспроизводится на VR
 оборудовании.
 
-![VR scene]()
+![VR scene](https://github.com/InSkipper/Unity-VR-Labs/blob/2_LAB/VR_Scene.png)
 
 ## Задание 2
 ### Привести ответ на вопросы:
 > Что значит X в аббревиатуре XR?
     
-    Под XR понимают технологию, объединяющую виртуальную, дополненную и смешанную реальности. Вместо Х можно подставить V, A или M. 
+    Под XR понимают технологию, объединяющую виртуальную, дополненную и смешанную реальности. 
+    Вместо Х можно подставить V, A или M. 
 > Какие SDK поддерживает XR Plugin Management по Default?
 
     Oculus
@@ -77,7 +78,7 @@ Manager;
 - Grab Interactable
 - Teleportation Anchor
 
-![Elements from XR Interraction Toolkit]()
+![Elements from XR Interraction Toolkit](https://github.com/InSkipper/Unity-VR-Labs/blob/2_LAB/ElementsFromXR.png)
 
 ## Выводы
 
